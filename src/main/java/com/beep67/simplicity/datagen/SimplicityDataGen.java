@@ -28,6 +28,5 @@ public class SimplicityDataGen {
 
             dataGenerator.addProvider(event.includeClient(), new ModItemModelProvider(dataGenerator, Simplicity.MOD_ID, helper));
             dataGenerator.addProvider(event.includeClient(), new ModBlockStateProvider(dataGenerator, Simplicity.MOD_ID, helper));
-            dataGenerator.addProvider(event.includeClient(), new ModEnUsLangProvider(dataGenerator, Simplicity.MOD_ID));
         }
     }

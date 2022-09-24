@@ -8,4 +8,8 @@ public class ModItemTagsProvider extends ItemTagsProvider {
     public ModItemTagsProvider(DataGenerator dataGenerator, ModBlockTagsProvider blockTagsProvider, String modId, ExistingFileHelper existingFileHelper) {
         super(dataGenerator, blockTagsProvider, modId, existingFileHelper);
     }
+
+    @Override
+    protected void addTags() {
+    }
 }
