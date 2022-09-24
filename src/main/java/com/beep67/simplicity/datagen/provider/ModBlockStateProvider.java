@@ -20,7 +20,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
 
-        cubeAllModBlock(BlockInit.GREENSCHIST.get(), new ResourceLocation(Simplicity.MOD_ID, "block/ruby_ore"));
+        cubeAllModBlock(BlockInit.GREENSCHIST.get(), new ResourceLocation(Simplicity.MOD_ID, "block/greenschist"));
 
     }
 
