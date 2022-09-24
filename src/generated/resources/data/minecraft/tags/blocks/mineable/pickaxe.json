@@ -1,5 +1,8 @@
 {
   "values": [
-    "simplicity:greenschist"
+    "simplicity:greenschist",
+    "simplicity:polished_greenschist",
+    "simplicity:greenschist_bricks",
+    "simplicity:greenschist_tiles"
   ]
 }

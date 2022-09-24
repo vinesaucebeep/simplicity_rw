@@ -7,7 +7,6 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import com.beep67.simplicity.Simplicity;
 import com.beep67.simplicity.datagen.provider.*;
-import org.jetbrains.annotations.ApiStatus;
 
 
 @Mod.EventBusSubscriber(modid = Simplicity.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
