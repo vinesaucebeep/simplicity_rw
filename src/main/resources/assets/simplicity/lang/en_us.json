@@ -1,5 +1,11 @@
 {
   "block.simplicity.greenschist": "Greenschist",
   "block.simplicity.polished_greenschist": "Polished Greenschist",
-  "block.simplicity.greenschist_bricks": "Greenschist Bricks"
+  "block.simplicity.greenschist_bricks": "Greenschist Bricks",
+  "block.simplicity.greenschist_tiles": "Greenschist Tiles",
+  "block.simplicity.chiseled_greenschist": "Chiseled Greenschist",
+  "block.simplicity.cracked_greenschist_bricks": "Cracked Greenschist Bricks",
+  "block.simplicity.cracked_greenschist_tiles": "Cracked Greenschist Tiles",
+
+  "itemGroup.simplicity": "Simplicity"
 }

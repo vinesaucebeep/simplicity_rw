@@ -4,6 +4,9 @@ import com.beep67.simplicity.core.init.ItemInit;
 import com.beep67.simplicity.core.init.BlockInit;
 import com.electronwill.nightconfig.core.Config;
 import com.mojang.logging.LogUtils;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
@@ -19,6 +22,14 @@ public class Simplicity {
     public static final Logger LOGGER = LogUtils.getLogger();
 
     public static final String MOD_ID = "simplicity";
+
+    public static final CreativeModeTab SIMPLICITY = new CreativeModeTab(MOD_ID) {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(ItemInit.POLISHED_GREENSCHIST.get());
+        }
+    };
+
 
     public Simplicity() {
 

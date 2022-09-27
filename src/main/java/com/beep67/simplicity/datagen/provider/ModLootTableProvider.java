@@ -42,7 +42,11 @@ public class ModLootTableProvider extends LootTableProvider {
         protected void addTables() {
             this.dropSelf(BlockInit.GREENSCHIST.get());
             this.dropSelf(BlockInit.POLISHED_GREENSCHIST.get());
+            this.dropSelf(BlockInit.GREENSCHIST_BRICKS.get());
             this.dropSelf(BlockInit.GREENSCHIST_TILES.get());
+            this.dropSelf(BlockInit.CHISELED_GREENSCHIST.get());
+            this.dropSelf(BlockInit.CRACKED_GREENSCHIST_BRICKS.get());
+            this.dropSelf(BlockInit.CRACKED_GREENSCHIST_TILES.get());
 
         }
 

@@ -10,7 +10,7 @@ import net.minecraftforge.client.model.generators.ConfiguredModel;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.ForgeRegistries;
 
-
+import java.util.Objects;
 
 public class ModBlockStateProvider extends BlockStateProvider {
     public ModBlockStateProvider(DataGenerator dataGenerator, String modId, ExistingFileHelper existingFileHelper) {
@@ -24,7 +24,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
         cubeAllModBlock(BlockInit.POLISHED_GREENSCHIST.get(), new ResourceLocation(Simplicity.MOD_ID, "block/polished_greenschist"));
         cubeAllModBlock(BlockInit.GREENSCHIST_BRICKS.get(), new ResourceLocation(Simplicity.MOD_ID, "block/greenschist_bricks"));
         cubeAllModBlock(BlockInit.GREENSCHIST_TILES.get(), new ResourceLocation(Simplicity.MOD_ID, "block/greenschist_tiles"));
-
+        cubeAllModBlock(BlockInit.CHISELED_GREENSCHIST.get(), new ResourceLocation(Simplicity.MOD_ID, "block/chiseled_greenschist"));
+        cubeAllModBlock(BlockInit.CRACKED_GREENSCHIST_BRICKS.get(), new ResourceLocation(Simplicity.MOD_ID, "block/cracked_greenschist_bricks"));
+        cubeAllModBlock(BlockInit.CRACKED_GREENSCHIST_TILES.get(), new ResourceLocation(Simplicity.MOD_ID, "block/cracked_greenschist_tiles"));
 
     }
 

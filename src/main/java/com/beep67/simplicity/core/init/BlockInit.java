@@ -15,5 +15,10 @@ public class BlockInit {
     public static final RegistryObject<Block> POLISHED_GREENSCHIST = BLOCKS.register("polished_greenschist", () -> new Block(BlockBehaviour.Properties.copy(Blocks.POLISHED_ANDESITE)));
     public static final RegistryObject<Block> GREENSCHIST_BRICKS = BLOCKS.register("greenschist_bricks", () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE_BRICKS)));
     public static final RegistryObject<Block> GREENSCHIST_TILES = BLOCKS.register("greenschist_tiles", () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE_BRICKS)));
+    public static final RegistryObject<Block> CHISELED_GREENSCHIST = BLOCKS.register("chiseled_greenschist", () -> new Block(BlockBehaviour.Properties.copy(Blocks.CHISELED_STONE_BRICKS)));
+    public static final RegistryObject<Block> CRACKED_GREENSCHIST_BRICKS = BLOCKS.register("cracked_greenschist_bricks", () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE_BRICKS)));
+    public static final RegistryObject<Block> CRACKED_GREENSCHIST_TILES = BLOCKS.register("cracked_greenschist_tiles", () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE_BRICKS)));
+
+
 
 }

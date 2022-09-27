@@ -3,6 +3,9 @@
     "simplicity:greenschist",
     "simplicity:polished_greenschist",
     "simplicity:greenschist_bricks",
-    "simplicity:greenschist_tiles"
+    "simplicity:greenschist_tiles",
+    "simplicity:chiseled_greenschist",
+    "simplicity:cracked_greenschist_bricks",
+    "simplicity:cracked_greenschist_tiles"
   ]
 }

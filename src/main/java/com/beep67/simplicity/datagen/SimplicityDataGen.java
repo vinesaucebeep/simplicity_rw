@@ -7,6 +7,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import com.beep67.simplicity.Simplicity;
 import com.beep67.simplicity.datagen.provider.*;
+import com.beep67.simplicity.datagen.provider.ModBlockStateProvider;
 
 
 @Mod.EventBusSubscriber(modid = Simplicity.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -16,6 +17,7 @@ public class SimplicityDataGen {
     public static void onGatherData(final GatherDataEvent event) {
         DataGenerator dataGenerator = event.getGenerator();
         ExistingFileHelper helper = event.getExistingFileHelper();
+
         ModBlockTagsProvider blockTagsProvider = new ModBlockTagsProvider(dataGenerator, Simplicity.MOD_ID, helper);
 
 
