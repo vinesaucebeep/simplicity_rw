@@ -11,6 +11,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class ItemInit {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Simplicity.MOD_ID);
 
+    // GREENSCHIST
     public static final RegistryObject<Item> GREENSCHIST = ITEMS.register("greenschist", () -> new BlockItem(BlockInit.GREENSCHIST.get(), new Item.Properties().tab(Simplicity.SIMPLICITY)));
     public static final RegistryObject<Item> POLISHED_GREENSCHIST = ITEMS.register("polished_greenschist", () -> new BlockItem(BlockInit.POLISHED_GREENSCHIST.get(), new Item.Properties().tab(Simplicity.SIMPLICITY)));
     public static final RegistryObject<Item> GREENSCHIST_BRICKS = ITEMS.register("greenschist_bricks", () -> new BlockItem(BlockInit.GREENSCHIST_BRICKS.get(), new Item.Properties().tab(Simplicity.SIMPLICITY)));
@@ -18,6 +19,11 @@ public class ItemInit {
     public static final RegistryObject<Item> CHISELED_GREENSCHIST = ITEMS.register("chiseled_greenschist", () -> new BlockItem(BlockInit.CHISELED_GREENSCHIST.get(), new Item.Properties().tab(Simplicity.SIMPLICITY)));
     public static final RegistryObject<Item> CRACKED_GREENSCHIST_BRICKS = ITEMS.register("cracked_greenschist_bricks", () -> new BlockItem(BlockInit.CRACKED_GREENSCHIST_BRICKS.get(), new Item.Properties().tab(Simplicity.SIMPLICITY)));
     public static final RegistryObject<Item> CRACKED_GREENSCHIST_TILES = ITEMS.register("cracked_greenschist_tiles", () -> new BlockItem(BlockInit.CRACKED_GREENSCHIST_TILES.get(), new Item.Properties().tab(Simplicity.SIMPLICITY)));
+
+
+    // SCORIA
+    public static final RegistryObject<Item> SCORIA = ITEMS.register("scoria", () -> new BlockItem(BlockInit.SCORIA.get(), new Item.Properties().tab(Simplicity.SIMPLICITY)));
+
 
 
 

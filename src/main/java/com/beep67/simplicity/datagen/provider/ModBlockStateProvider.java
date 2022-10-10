@@ -27,6 +27,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         cubeAllModBlock(BlockInit.CHISELED_GREENSCHIST.get(), new ResourceLocation(Simplicity.MOD_ID, "block/chiseled_greenschist"));
         cubeAllModBlock(BlockInit.CRACKED_GREENSCHIST_BRICKS.get(), new ResourceLocation(Simplicity.MOD_ID, "block/cracked_greenschist_bricks"));
         cubeAllModBlock(BlockInit.CRACKED_GREENSCHIST_TILES.get(), new ResourceLocation(Simplicity.MOD_ID, "block/cracked_greenschist_tiles"));
+        cubeAllModBlock(BlockInit.SCORIA.get(), new ResourceLocation(Simplicity.MOD_ID, "block/scoria"));
 
     }
 

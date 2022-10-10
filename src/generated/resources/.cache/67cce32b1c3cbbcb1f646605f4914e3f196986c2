@@ -1,4 +1,4 @@
-// 1.19.1	2022-09-26T11:58:09.1854079	LootTables
+// 1.19.1	2022-10-09T21:51:55.2904717	LootTables
 89952e179156b25fbcc07a4f6752589731b6d153 data/simplicity/loot_tables/blocks/chiseled_greenschist.json
 0a2ee2ff7c9e23250d07c664677a9de17a22a918 data/simplicity/loot_tables/blocks/cracked_greenschist_bricks.json
 068ad0acf54af5ea0d6b7ce0806f11781f84b925 data/simplicity/loot_tables/blocks/cracked_greenschist_tiles.json
@@ -6,3 +6,4 @@ fcd1ee290e1ccdf575de43d50f23ffa561ee0132 data/simplicity/loot_tables/blocks/gree
 b6913d55b5e5aacdef3a134adb88c9ac8fd292db data/simplicity/loot_tables/blocks/greenschist_bricks.json
 c077f2287268374c611114761a76d037e31c0cfd data/simplicity/loot_tables/blocks/greenschist_tiles.json
 f562341b0a9f90c4df04b3737ea72a35e67a5647 data/simplicity/loot_tables/blocks/polished_greenschist.json
+77383cd0d741d54bd08ffd38e239e6aba827c29e data/simplicity/loot_tables/blocks/scoria.json

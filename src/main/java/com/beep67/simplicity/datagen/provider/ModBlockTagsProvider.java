@@ -24,7 +24,8 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
                 .add(BlockInit.GREENSCHIST_TILES.get())
                 .add(BlockInit.CHISELED_GREENSCHIST.get())
                 .add(BlockInit.CRACKED_GREENSCHIST_BRICKS.get())
-                .add(BlockInit.CRACKED_GREENSCHIST_TILES.get());
+                .add(BlockInit.CRACKED_GREENSCHIST_TILES.get())
+                .add(BlockInit.SCORIA.get());
 
 
 

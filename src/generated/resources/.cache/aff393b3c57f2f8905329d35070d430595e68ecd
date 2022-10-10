@@ -1,4 +1,4 @@
-// 1.19.1	2022-09-26T11:59:06.4876197	Block States: simplicity
+// 1.19.1	2022-10-09T21:51:55.2884776	Block States: simplicity
 d1a8edcdeb4ad13446217ccbdb66e83fee35fbd0 assets/simplicity/blockstates/chiseled_greenschist.json
 4d8057364493acbf4c2cbce2b0c1292527dd1579 assets/simplicity/blockstates/cracked_greenschist_bricks.json
 ef0df89f9fb0ba3aecf2e604507c0959ce320ab2 assets/simplicity/blockstates/cracked_greenschist_tiles.json
@@ -6,6 +6,7 @@ bcf7f4e04c122ceed8346d1ec2ec474660f6b003 assets/simplicity/blockstates/greenschi
 5898c2d9f63a16fe1a3d8e44f1c4073562c6a40b assets/simplicity/blockstates/greenschist_bricks.json
 f2fed95c0ad4e42f5afe38ae388f4245e4566517 assets/simplicity/blockstates/greenschist_tiles.json
 3bbb3057957f66166da28120a1535503c4b526a6 assets/simplicity/blockstates/polished_greenschist.json
+d6ff33c08d4632f8d6355c4a20d990050305258f assets/simplicity/blockstates/scoria.json
 68bbd3d0b5dcd1f02f4dfa6adc1999d267cd7a87 assets/simplicity/models/block/chiseled_greenschist.json
 369bcc2d92af637f21525011856785d0ef110e90 assets/simplicity/models/block/cracked_greenschist_bricks.json
 3bd522361cd9b8b48252a3108bacf9a2db356546 assets/simplicity/models/block/cracked_greenschist_tiles.json
@@ -13,6 +14,7 @@ f2fed95c0ad4e42f5afe38ae388f4245e4566517 assets/simplicity/blockstates/greenschi
 32c1a5bd2d23a9734c5b4344e863f87c892b456e assets/simplicity/models/block/greenschist_bricks.json
 6a433dc4bb8bc74c0c786825810b0835acb2ee8e assets/simplicity/models/block/greenschist_tiles.json
 861e53aaa37311a3d658e875b8994b87ba3de085 assets/simplicity/models/block/polished_greenschist.json
+81be156128447e17c5e4f0d4f8098f3e63b62887 assets/simplicity/models/block/scoria.json
 ca35907144ddc7182bd0cf1ff6bcdce6df10b6aa assets/simplicity/models/item/chiseled_greenschist.json
 38116a130e2107ea154f91753a00db4fcf696b7e assets/simplicity/models/item/cracked_greenschist_bricks.json
 5ea8e2793a3dd0755bf2a6d900a5eeaad65ec765 assets/simplicity/models/item/cracked_greenschist_tiles.json
@@ -20,3 +22,4 @@ ca35907144ddc7182bd0cf1ff6bcdce6df10b6aa assets/simplicity/models/item/chiseled_
 6a855c56e8f21f4c1d0e184945f00d5ad0fc96c1 assets/simplicity/models/item/greenschist_bricks.json
 1ab66f870b9fe80208424bada8c11476a2df94e0 assets/simplicity/models/item/greenschist_tiles.json
 a80c8aac0fc168e82b0f1e15d9a8d8b3fc16caf0 assets/simplicity/models/item/polished_greenschist.json
+0c96abd3f6a69ef97a8530abc5ac10350725b5c2 assets/simplicity/models/item/scoria.json

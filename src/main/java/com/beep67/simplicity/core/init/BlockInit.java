@@ -19,6 +19,8 @@ public class BlockInit {
     public static final RegistryObject<Block> CRACKED_GREENSCHIST_BRICKS = BLOCKS.register("cracked_greenschist_bricks", () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE_BRICKS)));
     public static final RegistryObject<Block> CRACKED_GREENSCHIST_TILES = BLOCKS.register("cracked_greenschist_tiles", () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE_BRICKS)));
 
+    public static final RegistryObject<Block> SCORIA = BLOCKS.register("scoria", () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+
 
 
 }
